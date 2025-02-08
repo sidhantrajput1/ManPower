@@ -1,6 +1,8 @@
 import { useState } from "react";
+import ContactModel from "./ContactModel";
 
 function NavBar() {
+  const [openModel, setOpenModel] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -16,8 +18,14 @@ function NavBar() {
     <nav className="p-4 bg-white shadow">
       <div className="flex items-center justify-between mx-auto max-w-7xl">
         <div className="logo flex gap-1">
-          <img className="h-10" src="http://localhost:3000/static/media/logo.83676f78032ba154dd52.png" alt="" />
-          <h3 className="text-2xl font-bold text-gray-800 uppercase">Skill Squad</h3>
+          <img
+            className="h-10"
+            src="http://localhost:3000/static/media/logo.83676f78032ba154dd52.png"
+            alt=""
+          />
+          <h3 className="text-2xl font-bold text-gray-800 uppercase">
+            Skill Squad
+          </h3>
         </div>
 
         <div className="hidden md:flex md:items-center md:justify-center space-x-8 ">
@@ -71,13 +79,22 @@ function NavBar() {
             <li className="hover:text-gray-900 cursor-pointer">Technologies</li>
           </ul>
 
-          <button className="ml-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-700 transition">
-            Contact Us
-          </button>
+          <div>
+            <button
+              onClick={() => setOpenModel(true)}
+              className="ml-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-700 transition"
+            >
+              Contact Us
+            </button>
+            {openModel && <ContactModel cancelBtn={setOpenModel} />}
+          </div>
         </div>
 
         <div className="md:hidden">
-          <button onClick={toggleMobileMenu} className="text-gray-600 focus:outline-none">
+          <button
+            onClick={toggleMobileMenu}
+            className="text-gray-600 focus:outline-none"
+          >
             <svg
               className="w-6 h-6"
               fill="none"
@@ -147,9 +164,7 @@ function NavBar() {
 
             <li className="hover:text-gray-900 cursor-pointer">Career</li>
             <li className="hover:text-gray-900 cursor-pointer">Technologies</li>
-            <li className="hover:text-gray-900 cursor-pointer">
-              Contact Us
-            </li>
+            <li className="hover:text-gray-900 cursor-pointer">Contact Us</li>
           </ul>
         </div>
       )}
