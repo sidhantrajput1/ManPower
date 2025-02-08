@@ -15,8 +15,9 @@ function NavBar() {
   return (
     <nav className="p-4 bg-white shadow">
       <div className="flex items-center justify-between mx-auto max-w-7xl">
-        <div className="logo">
-          <h3 className="text-2xl font-bold text-gray-800 uppercase">ManPower</h3>
+        <div className="logo flex gap-1">
+          <img className="h-10" src="http://localhost:3000/static/media/logo.83676f78032ba154dd52.png" alt="" />
+          <h3 className="text-2xl font-bold text-gray-800 uppercase">Skill Squad</h3>
         </div>
 
         <div className="hidden md:flex md:items-center md:justify-center space-x-8 ">
@@ -66,8 +67,8 @@ function NavBar() {
               )}
             </li>
 
-            {/* <li className="hover:text-gray-900 cursor-pointer">Career</li>
-            <li className="hover:text-gray-900 cursor-pointer">Technologies</li> */}
+            <li className="hover:text-gray-900 cursor-pointer">Career</li>
+            <li className="hover:text-gray-900 cursor-pointer">Technologies</li>
           </ul>
 
           <button className="ml-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-700 transition">
@@ -144,8 +145,8 @@ function NavBar() {
               )}
             </li>
 
-            {/* <li className="hover:text-gray-900 cursor-pointer">Career</li>
-            <li className="hover:text-gray-900 cursor-pointer">Technologies</li> */}
+            <li className="hover:text-gray-900 cursor-pointer">Career</li>
+            <li className="hover:text-gray-900 cursor-pointer">Technologies</li>
             <li className="hover:text-gray-900 cursor-pointer">
               Contact Us
             </li>

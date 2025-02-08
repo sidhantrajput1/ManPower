@@ -1,11 +1,13 @@
-// import Footer from "./Shared/Footer";
+import Footer from "./Shared/Footer";
+import HeroPage from "./HeroPage";
 import NavBar from "./Shared/NavBar";
 
 function HomePage() {
     return (
         <div className="">
             <NavBar />
-            {/* <Footer /> */}
+            <HeroPage />
+            <Footer />
         </div>
     )
 }
