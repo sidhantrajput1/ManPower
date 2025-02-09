@@ -5,7 +5,7 @@ function About() {
     <div className="max-w-7xl mx-auto">
       <div className="grid sm:grid-cols-2 sm:items-center">
         <div className="p-4 flex gap-10 flex-col">
-          <h3 className="font-bold text-4xl">About of Skills Squad</h3>
+          <h3 className="font-bold text-4xl">About Us</h3>
           <p className="text-gray-500">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus odio
             fuga vitae quae. Totam. Lorem ipsum, dolor sit amet consectetur
