@@ -2,7 +2,7 @@ import HeroPageImg from "./../assets/img/heropageimg.png";
 
 function HeroPage() {
   return (
-    <div className="bg-gradient-to-l from-blue-300 to-orange-200 h-[80vh]">
+    <div className="bg-gradient-to-l from-blue-300 to-orange-200 sm:h-[60vh]">
       <div className="grid gap-x-10 p-4 max-w-7xl mx-auto grid-cols-1  sm:grid-cols-2 items-center justify-between">
         <div className="left flex flex-col gap-4 sm:gap-6 ">
           <h3 className="font-bold text-4xl sm:text-6xl">Welcome to <span className="text-red-600">Skill Squad</span></h3>
