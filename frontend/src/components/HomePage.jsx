@@ -3,6 +3,7 @@ import HeroPage from "./HeroPage";
 import NavBar from "./Shared/NavBar";
 import About from "./About";
 import Carousel from "./PeopleRating";
+import Accordian from "./Accordinan";
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <HeroPage />
       <About />
       <Carousel />
+      <Accordian />
       <Footer />
     </div>
   );
