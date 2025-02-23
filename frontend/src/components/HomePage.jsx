@@ -2,8 +2,9 @@ import Footer from "./Shared/Footer";
 import HeroPage from "./HeroPage";
 import NavBar from "./Shared/NavBar";
 import About from "./About";
-import Carousel from "./PeopleRating";
-import Accordian from "./Accordinan";
+import WhyChoose from "./WhyChoose";
+// import Carousel from "./PeopleRating";
+// import Accordian from "./Accordinan";
 
 function HomePage() {
   return (
@@ -11,8 +12,7 @@ function HomePage() {
       <NavBar />
       <HeroPage />
       <About />
-      <Carousel />
-      <Accordian />
+      <WhyChoose />
       <Footer />
     </div>
   );

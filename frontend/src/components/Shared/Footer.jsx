@@ -2,7 +2,7 @@ import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="p-10" style={{ background: "rgba(1, 27, 91, 1)" }}>
+    <footer className="p-10 bg-black/90">
       <div
         className="mx-auto max-w-screen-xl"
         style={{ color: "rgba(170, 181, 205, 1)" }}
@@ -10,10 +10,8 @@ const Footer = () => {
         <div className="p-6 flex flex-col md:flex-row gap-10 md:gap-16">
           {/* Left section */}
           <div className="flex flex-col gap-6 md:w-1/3">
-            <p className="w-full md:w-[247px]">
-              Design outstanding interfaces with advanced Figma features in a
-              matter of minutes.
-            </p>
+            <h3 className="text-xl font-bold text-white">Skills Squid</h3>
+            <p className="w-full md:w-[247px]">Your Gateway to Growth!</p>
             <div className="flex gap-4">
               <a href="#" aria-label="Instagram">
                 <FaInstagram className="hover:text-orange-200 transition" />
@@ -34,53 +32,10 @@ const Footer = () => {
                 className="text-md font-semibold mb-4 text-amber-200"
                 style={{ color: "rgba(255, 162, 41, 1)" }}
               >
-                START A BUSINESS
+                Quick Links
               </h3>
               <ul className="space-y-2 text-sm">
-                {["Features", "Solutions", "Integration", "Enterprise"].map(
-                  (item) => (
-                    <li key={item}>
-                      <a href="#" className="hover:text-orange-200">
-                        {item}
-                      </a>
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
-            <div>
-              <h3
-                className="text-md font-semibold mb-4 text-amber-200"
-                style={{ color: "rgba(255, 162, 41, 1)" }}
-              >
-                GOVERNMENT REGISTRATION
-              </h3>
-              <ul className="space-y-2 text-sm">
-                {["Partners", "Community", "Developers", "App", "Blog"].map(
-                  (item) => (
-                    <li key={item}>
-                      <a href="#" className="hover:text-orange-200">
-                        {item}
-                      </a>
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
-            <div>
-              <h3
-                className="text-md font-semibold mb-4 text-amber-200"
-                style={{ color: "rgba(255, 162, 41, 1)" }}
-              >
-                COMPLIANCE & TAX
-              </h3>
-              <ul className="space-y-2 text-sm">
-                {[
-                  "Channels",
-                  "Scale",
-                  "Watch the Demo",
-                  "Our Competitions",
-                ].map((item) => (
+                {["Home", "About", "Service", "Contact"].map((item) => (
                   <li key={item}>
                     <a href="#" className="hover:text-orange-200">
                       {item}
@@ -94,10 +49,10 @@ const Footer = () => {
                 className="text-md font-semibold mb-4 text-amber-200"
                 style={{ color: "rgba(255, 162, 41, 1)" }}
               >
-                BIS & CDSCO
+                Contact
               </h3>
               <ul className="space-y-2 text-sm">
-                {["About Us", "News", "Leadership", "Media Kit"].map((item) => (
+                {["info@skillsquid.com", "+1 234 567 890"].map((item) => (
                   <li key={item}>
                     <a href="#" className="hover:text-orange-200">
                       {item}
@@ -105,13 +60,32 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+            <div>
+              <h3
+                className="text-md font-semibold mb-4 text-amber-200"
+                style={{ color: "rgba(255, 162, 41, 1)" }}
+              >
+                Follow us
+              </h3>
+              <div className="flex gap-4">
+                <a href="#" aria-label="Instagram">
+                  <FaInstagram className="hover:text-orange-200 transition" />
+                </a>
+                <a href="#" aria-label="Facebook">
+                  <FaFacebook className="hover:text-orange-200 transition" />
+                </a>
+                <a href="#" aria-label="YouTube">
+                  <FaYoutube className="hover:text-orange-200 transition" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Footer Bottom Section */}
         <div className="mt-10 border-t border-orange-100 pt-6 text-center text-sm">
-          <p>&copy; 2024 RegisterKaro. All rights reserved.</p>
+          <p>&copy; 2024 Skills Squid. All rights reserved.</p>
           <p className="mt-2">
             <a
               href="#"
