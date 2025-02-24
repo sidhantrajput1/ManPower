@@ -32,7 +32,7 @@ function Review() {
             </button>
             <button
               onClick={nextS}
-              className="p-2 bg-[#FFA229] text-black rounded-full shadow-lg hover:bg-yellow-400 transition ease-in-out duration-200"
+              className="p-2 bg-white text-black rounded-full shadow-lg hover:bg-gray-300 transition ease-in-out duration-200"
             >
               &gt;
             </button>

@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 function NavBar() {
   return (
     <div className="bg-white">
@@ -48,8 +50,12 @@ function NavItems() {
 function Button() {
   return (
     <div className="flex gap-4">
-      <button className="border px-4 py-2 rounded-lg text-sm">Sign In</button>
-      <button className="text-white bg-black py-2 px-4 text-sm rounded-lg">Get Started</button>
+      <button className="border px-4 py-2 rounded-lg text-sm">
+        <Link to="/login">Sign In</Link>
+      </button>
+      <button className="text-white bg-black py-2 px-4 text-sm rounded-lg">
+        <Link to="/signup">Get Started</Link>
+      </button>
     </div>
   );
 }

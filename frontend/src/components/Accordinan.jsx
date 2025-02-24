@@ -4,27 +4,27 @@ import { useState } from "react";
 const Data = [
   {
     id: "1",
-    question: "What are accordion components?",
+    question: "How do I register for Skill Sqoud’s job placement services?",
     answer:
-      "Accordion components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.",
+      "Simply visit our website, create an account, and upload your resume to get started.",
   },
   {
     id: "2",
-    question: "What are they used for?",
+    question: "What industries does Skill Sqoud cater to?",
     answer:
-      "They are commonly employed in various contexts, including FAQs, product descriptions, navigation menus, settings panels, and data tables, to save screen space and provide a structured and user-friendly interface for presenting information or options.",
+      "We serve a wide range of industries including IT, healthcare, finance, manufacturing, and more.",
   },
   {
     id: "3",
-    question: "Accordion as a musical instrument",
+    question: "Do you provide certification after training?",
     answer:
-      "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres.",
+      "Yes, we offer industry-recognized certifications upon successful completion of our training programs.",
   },
   {
     id: "4",
-    question: "Can I create an accordion component with a different framework?",
+    question: "How do employers partner with Skill Sqoud?",
     answer:
-      "Yes, of course. It is very possible to create an accordion component with another framework.",
+      "Employers can contact us directly or fill out our partnership form on our website to discuss recruitment needs.",
   },
 ];
 

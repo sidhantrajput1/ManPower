@@ -6,7 +6,7 @@ import WhyChoose from "./WhyChoose";
 import OurService from "./OurService";
 import Review from "./Review";
 // import Carousel from "./PeopleRating";
-// import Accordian from "./Accordinan";
+import Accordian from "./Accordinan";
 
 function HomePage() {
   return (
@@ -14,9 +14,10 @@ function HomePage() {
       <NavBar />
       <HeroPage />
       <About />
+      <Accordian />
       <WhyChoose />
-      <Review />
       <OurService />
+      <Review />
       <Footer />
     </div>
   );
