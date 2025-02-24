@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <div className="bg-white">
-      <div className="flex justify-between mx-auto max-w-7xl py-4 items-center">
+      <div className="flex justify-between mx-auto max-w-7xl py-4 items-center px-4">
         <Logo />
         <NavItems />
         <Button />
@@ -21,7 +21,7 @@ function Logo() {
 function NavItems() {
   return (
     <div className="">
-      <ul className="flex gap-6 items-center">
+      <ul className="sm:flex gap-6 items-center hidden ">
         <li className="text-base cursor-pointer">
           Home
         </li>

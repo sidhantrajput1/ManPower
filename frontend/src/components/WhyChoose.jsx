@@ -4,11 +4,11 @@ import Handshake from "./../assets/img/handshake.png";
 
 function WhyChoose() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-100 px-4">
       <div className="mx-auto max-w-7xl py-18">
         <div className="space-y-10">
         <h3 className="text-center font-bold text-2xl">Why Choose Us?</h3>
-        <div className="grid grid-cols-3 gap-14">
+        <div className="grid sm:grid-cols-3 sm:px-2 gap-14">
           <div className="bg-white p-4 rounded-lg space-y-4">
             <div className="space-y-2">
               <img src={Trusted}   className="bg-black rounded-full p-2 h-14" alt="" />
