@@ -1,4 +1,5 @@
 import './App.css'
+import About from './components/About'
 import Login from './components/Auth/Login'
 import Signup from './components/Auth/Signup'
 import Contact from './components/Contact'
@@ -22,6 +23,10 @@ const router = createBrowserRouter ([
   {
     path : '/contact',
     element : <Contact />
+  },
+  {
+    path : '/about',
+    element : <About />
   }
 ])
 

@@ -23,7 +23,7 @@ function Logo() {
 function NavItems() {
   return (
     <div className="">
-      <ul className="sm:flex gap-6 items-center hidden ">
+      <ul className="md:flex gap-6 items-center hidden sm:hidden">
         <li className="text-base cursor-pointer">
           <Link to="/">Home</Link>
         </li>

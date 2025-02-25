@@ -7,7 +7,7 @@ function Contact() {
     <div className="">
         <NavBar />
       <div className="bg-gray-100 ">
-        <div className="max-w-5xl mx-auto py-14">
+        <div className="max-w-5xl mx-auto py-14 px-6">
           <h3 className="text-3xl font-normal tracking-widest text-center">
             Contact Us
           </h3>
@@ -41,8 +41,8 @@ function Contact() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col gap-6">
-              <h3 className="text-2xl  font-light tracking-widest font-sans">
+            <div className="flex flex-col gap-6 items-center md:items-start">
+              <h3 className="text-2xl font-light tracking-widest font-sans">
                 Skills Squid
               </h3>
               <p className="text-gray-600 ">

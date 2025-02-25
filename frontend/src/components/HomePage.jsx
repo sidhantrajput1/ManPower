@@ -1,7 +1,7 @@
 import Footer from "./Shared/Footer";
 import HeroPage from "./HeroPage";
 import NavBar from "./Shared/NavBar";
-import About from "./About";
+import AboutSection from "./AboutSection";
 import WhyChoose from "./WhyChoose";
 import OurService from "./OurService";
 import Review from "./Review";
@@ -13,7 +13,7 @@ function HomePage() {
     <div className="">
       <NavBar />
       <HeroPage />
-      <About />
+      <AboutSection />
       <Accordian />
       <WhyChoose />
       <OurService />
