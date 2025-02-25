@@ -25,10 +25,10 @@ function NavItems() {
     <div className="">
       <ul className="sm:flex gap-6 items-center hidden ">
         <li className="text-base cursor-pointer">
-          Home
+          <Link to="/">Home</Link>
         </li>
         <li className="text-base cursor-pointer">
-           About
+           <Link to="/about">About</Link>
         </li>
         <li className="text-base cursor-pointer">
           Service
@@ -40,7 +40,7 @@ function NavItems() {
           Job Seekers
         </li>
         <li className="text-base cursor-pointer">
-          Contact
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
