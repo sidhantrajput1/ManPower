@@ -9,7 +9,7 @@ function About() {
         <div className="max-w-7xl mx-auto py-14 px-6">
           <h3 className="text-center text-3xl tracking-widest">About Us</h3>
           <div className="py-10 md:w-5xl  mx-auto flex items-center flex-col gap-8">
-            <p className="text-center md:w-2xl text-base/8 tracking-widest ">
+            <p className="text-center lg:w-2xl md:w-xl sm:w-xl text-base/8 tracking-widest ">
               Skill Sqoud is a leading manpower, training, and placement company
               dedicated to empowering individuals and businesses. Our mission is
               to create employment opportunities and provide top-tier talent to
@@ -18,7 +18,7 @@ function About() {
             <button className="text-center tracking-wider p-4 border rounded-4xl hover:bg-black hover:text-white px-6">
               <Link to="/contact">Say Hello</Link>
             </button>
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
               <div className="p-5 bg-white  space-y-4 rounded-lg">
                 <h3 className="text-xl font-medium">Our Vision</h3>
                 <p className="">

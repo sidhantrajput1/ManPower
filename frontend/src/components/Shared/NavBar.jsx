@@ -23,23 +23,23 @@ function Logo() {
 function NavItems() {
   return (
     <div className="">
-      <ul className="md:flex gap-6 items-center hidden sm:hidden">
-        <li className="text-base cursor-pointer">
+      <ul className="md:hidden gap-6 items-center hidden sm:hidden lg:flex">
+        <li className="text-base cursor-pointer tracking-wider">
           <Link to="/">Home</Link>
         </li>
-        <li className="text-base cursor-pointer">
+        <li className="text-base cursor-pointer tracking-wider">
            <Link to="/about">About</Link>
         </li>
-        <li className="text-base cursor-pointer">
+        <li className="text-base cursor-pointer tracking-wider">
           Service
         </li>
-        <li className="text-base cursor-pointer">
+        <li className="text-base cursor-pointer tracking-wider">
           Employers
         </li>
-        <li className="text-base cursor-pointer">
+        <li className="text-base cursor-pointer tracking-wider">
           Job Seekers
         </li>
-        <li className="text-base cursor-pointer">
+        <li className="text-base cursor-pointer tracking-wider">
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
