@@ -5,6 +5,7 @@ import Signup from './components/Auth/Signup'
 import Contact from './components/Contact'
 import HomePage from './components/HomePage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Service from './components/Service'
 
 
 const router = createBrowserRouter ([
@@ -27,6 +28,10 @@ const router = createBrowserRouter ([
   {
     path : '/about',
     element : <About />
+  },
+  {
+    path : '/service',
+    element : <Service />
   }
 ])
 

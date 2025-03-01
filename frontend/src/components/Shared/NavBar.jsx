@@ -31,7 +31,7 @@ function NavItems() {
            <Link to="/about">About</Link>
         </li>
         <li className="text-base cursor-pointer tracking-wider">
-          Service
+          <Link to="/service">Service</Link>
         </li>
         <li className="text-base cursor-pointer tracking-wider">
           Employers
